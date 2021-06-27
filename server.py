@@ -23,7 +23,7 @@ class Battlesnake(object):
             "apiversion": "1",
             "author": "kunal-kushwaha",
             "color": "#306448",
-            "head": "tongue",
+            "head": "mask",
             "tail": "sharp",
         }
 
@@ -55,9 +55,9 @@ class Battlesnake(object):
         # Choose a direction to move in
         possible_moves = ["up", "down", "left", "right"]
 
-        safe_moves = snakebrain.get_safe_moves(possible_moves, body, data["board"])
+        smart_moves = snakebrain.get_smart_moves(possible_moves, body, data["board"])
 
-        move = random.choice(safe_moves)
+        move = random.choice(smart_moves)
 
         return {"move": move}
 

@@ -85,5 +85,8 @@ def get_future_head_positions(body, turns, board):
 
     return explores[turns]
 
+def get_smart_moves(possible_moves, body, board):
+    pass
+
 
 
