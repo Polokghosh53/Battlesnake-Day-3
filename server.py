@@ -21,7 +21,7 @@ class Battlesnake(object):
         # TIP: If you open your Battlesnake URL in browser you should see this data
         return {
             "apiversion": "1",
-            "author": "kunal-kushwaha",
+            "author": "Polokghosh53",
             "color": "#306448",
             "head": "mask",
             "tail": "sharp",
