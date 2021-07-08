@@ -181,3 +181,14 @@ def get_smart_moves(possible_moves, body, board, my_snake):
         avoid_consumption(guess, board['snakes'], my_snake) and
         avoid_hazards(guess_coord, board['hazards'])):
             smart_moves.append(path)
+
+
+
+
+
+
+
+
+
+
+
